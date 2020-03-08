@@ -1,0 +1,10 @@
+{
+  "name": "athenahacks2020",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:florenceyang/athenahacks2020.git",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
