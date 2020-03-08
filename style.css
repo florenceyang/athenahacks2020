@@ -1,0 +1,139 @@
+@font-face {
+	font-family: "Lemon Milk";
+	src: url("LEMONMILK-Medium.ttf");
+}
+body {
+	font-family: 'Cardo', serif;
+}
+#navigation {
+	font-family: Lemon Milk;
+}
+#header {
+	padding: 0px;
+	background-image: url("routine-cover.jpg");
+	background-size: cover;
+	padding: 15vh 10vw;
+	text-align: center;
+	background-position: center;
+}
+#header img {
+	width: 100%;
+}
+#header h1 {
+	font-family: Lemon Milk;
+	color: black;
+	text-shadow: 2px 2px 8px white;
+	
+	font-size: 9vw;
+	font-weight: bolder;
+	white-space: nowrap;
+}
+#header p {
+	text-shadow: 2px 2px 8px black;
+	color: white;
+	font-size: 4vw;
+}
+/*icons*/
+.fa-caret-down {
+	padding-left: 5%;
+	display: inline;
+}
+
+#featured {
+	margin-top: 20px;
+	text-align: center;
+}
+#featured h2 {
+	font-family: Lemon Milk;
+	font-size:40px;
+}
+#featured p {
+	font-size: 20px;
+	text-align: justify-all;
+}
+#featured img {
+	width: 80%;
+}
+#featured .name {
+	position: absolute;
+	text-align: center;
+	top: 60px;
+	font-size: 25px;
+	color: white;
+}
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	transition: .3s ease;
+	background-color: rgba(0,0,0,0.5);
+}
+.product:hover .overlay{
+	opacity: 1;
+}
+#featured .caption {
+	font-size: 18px;
+	text-align: center;
+}
+#footer {
+	text-align: center;
+	margin-bottom: 20px;
+}
+#members img {
+	padding: 15px;
+	margin: auto;
+	width: 80%;
+	display: block;
+	box-sizing: border-box;
+}
+#members #oprah {
+	width: 91%;
+}
+
+#outer-dropdown {
+	display: none;
+}
+.inner-dropdown {
+	display: none;
+}
+.dropdown-item {
+	color: white;
+}
+
+/*tablet*/
+@media (min-width: 768px)
+{
+	#featured h2 {
+		text-align: left;
+	}
+	#featured p {
+		text-align: left;
+		font-size: 25px;
+	}
+
+	#members img {
+		width: 100%;
+	}
+	#members #oprah {
+		width: 112%
+	}
+}
+/*desktop*/
+@media (min-width: 992px)
+{
+	#featured h2 {
+		font-size: 50px;
+	}
+	#featured p {
+		font-size: 30px;
+	}
+}
+/* Austin */
+ul.navbar-nav li.dropdown a.nav-link {
+	display: flex;
+}

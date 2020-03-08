@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Athena Hacks: Skincare Routine Page</title>
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+	<!-- css external style sheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css?family=Cardo&display=swap" rel="stylesheet">
+
+	<!-- font awesome icons-->
+	<script src="https://kit.fontawesome.com/7ce1d97a87.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<!-- navigation bar -->
+	<div id = "navigation">
+		<nav class = "navbar navbar-expand-md navbar-dark bg-dark">
+			<a class="navbar-brand" href="home.html">
+			<!-- icon -->
+			<img src="preface-logo.png" width="160" height="40">
+			 </a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#subpages" aria-controls="subpages" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="subpages">
+				<!-- navbar menu items -->
+				<ul class="navbar-nav">
+
+					<li class="nav-item active">
+						<a class="nav-link" href="home.html">HOME <span class="sr-only">(current)</span></a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="team.html">TEAM</a>
+					</li>
+
+
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CURATED ROUTINES
+							<i class="fas fa-caret-down main-caret"/></i>
+						</a>
+						<!-- <a id="links" class="dropdown-menu" aria-labelledby="navbarDropdown"> -->
+						<div id="outer-dropdown">
+						  <a class="dropdown-item" href="#">Skin Type<i class="fas fa-caret-down" id="skin"></i></a>
+						  <div class="inner-dropdown" id="skin-inner">
+						  	<a class="dropdown-item" href="skincare.html">Oily</a>
+						  	<a class="dropdown-item" href="#">Dry</a>
+						  	<a class="dropdown-item" href="#">Combo</a>
+						  	<a class="dropdown-item" href="#">Normal</a>
+						  </div>
+						  <!-- <div class="dropdown-divider"></div> -->
+						  <a class="dropdown-item" href="#">Acne</i></a>
+				          <a class="dropdown-item" href="#">Aging<i class="fas fa-caret-down" id="aging"></i></a>
+				          <div class="inner-dropdown" id="aging-inner">
+						  	<a class="dropdown-item" href="#">Wrinkles</a>
+						  	<a class="dropdown-item" href="#">Dark Spots</a>
+						  	<a class="dropdown-item" href="#">Fine Lines</a>
+						  </div>
+				        </div>
+					</li>
+
+					
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+		<div id="header">
+			<h1 class="display-4">YOUR 5 STEPS</h1>
+			<p class="lead">A <b>custom-curated</b> skincare routine.</p>
+		</div>
+	
+	<div id="featured" class="container">
+		<div class="row">
+			<div class="col col-12 col-md-7">
+				<h2>STEP 1: Cleanser.</h2>
+				<p>
+					Removes impurities such as sweat and dirt in order to clean your face from the day’s tribulations.
+				</p>
+			</div>
+			<div class="col col-12 col-md-5">
+				<div class="product">
+					<img src="products/kiehls.jpg" alt="Image of Kiehl’s Ultra Facial Cleanser.">
+					<div class="overlay">
+						<div class="name">
+							Click here for more information about this product.
+						</div>
+					</div>
+				</div>
+				<p class="caption">Kiehl’s Ultra Facial Cleanser</p>
+
+			</div>
+		</div>
+		<hr class= "my-4"> 
+
+		<div class="row">
+			<div class="col col-12 col-md-7">
+				<h2>STEP 2: Exfoliator.</h2>
+				<p> 2-3 times a week
+				Helps to deep clean your pores and get rid of dead skin cells, in turn leaving your skin brighter and smoother. </p>
+			</div>
+			<div class="col col-12 col-md-5 order-md-first">
+				<div class="product">
+					<img src="products/neogen.jpg" alt="Image of Bio-Peel Gauze Peeling Lemon by Neogen.">
+					<div class="overlay">
+						<div class="name">
+							Click here for more information about this product.
+						</div>
+					</div>
+				</div>
+				<p class="caption">Bio-Peel Gauze Peeling Lemon by Neogen</p>
+			</div>
+		</div>
+
+		<hr class= "my-4"> 
+
+		<div class="row">
+			<div class="col col-12 col-md-7">
+				<h2>STEP 3: Toner.</h2>
+				<p>
+					Balances the pH levels in your skin after cleansing while also removing any remaining impurities. 
+				</p>
+			</div>
+			<div class="col col-12 col-md-5">
+				<div class="product">
+					<img src="products/sonandpark.jpg" alt="Image of Son and Park Beauty Water.">
+					<div class="overlay">
+							<div class="name">
+								Click here for more information about this product.
+							</div>
+					</div>
+				</div>
+				<p class="caption">Son and Park Beauty Water</p>
+			</div>
+		</div>
+		<hr class= "my-4"> 
+
+		<div class="row">
+			<div class="col col-12 col-md-7">
+				<h2>STEP 4: Serum/Ampoule.</h2>
+				<p> This step targets specific skin needs and concerns. This allows for you to personalize your skincare routine to another degree.  </p>
+			</div>
+			<div class="col col-12 col-md-5 order-md-first">
+				<div class="product">
+					<img src="products/timestop.jpg" alt="Image of The Plant Base - Time Stop Collagen Ampoule.">
+					<div class="overlay">
+							<div class="name">
+								Click here for more information about this product.
+							</div>
+					</div>
+				</div>
+				<p class="caption">The Plant Base - Time Stop Collagen Ampoule</p>
+			</div>
+		</div>
+		<hr class= "my-4"> 
+
+		<div class="row">
+			<div class="col col-12 col-md-7">
+				<h2>STEP 5:  Moisturizer.</h2>
+				<p>
+					Seals the natural moisture in the face to provide longevity of skin.
+				</p>
+			</div>
+			<div class="col col-12 col-md-5">
+				<div class="product">
+					<img src="products/klairs.jpg" alt="Image of Klairs Rich Moist Soothing Cream.">
+					<div class="overlay">
+							<div class="name">
+								Click here for more information about this product.
+							</div>
+					</div>
+				</div>
+				<p class="caption">Klairs Rich Moist Soothing Cream</p>
+			</div>
+		</div>
+
+
+	</div>
+
+	<!-- separating line -->
+	<hr class= "my-4"> 
+
+	<div id="footer">
+		2020 Preface, Inc.
+	</div>
+
+
+
+	<!-- bootstrap's javascript -->
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+
+	
+<!-- jQUERY external library-->
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<script>
+
+	// $(document).on("click", "#links .dropdown-menu", function (event) {
+	//   event.stopPropagation();
+	// });
+	$('.dropdown a').on('click', function (event) {
+    $(this).parent().toggleClass('open');
+	});
+	$('body').on('click', function (e) {
+    if (!$('.dropdown.').is(e.target) 
+        && $('.dropdown').has(e.target).length === 0 
+        && $('.open').has(e.target).length === 0
+    ) {
+        $('li.dropdown.mega-dropdown').removeClass('open');
+    }
+});
+		console.log("hey");
+	$(".main-caret").click(function() {
+		console.log("plus sign clicked");
+		$("#outer-dropdown").slideToggle();
+	});
+	//when click carat icon, toggles when to show more subpages on dropdown menu
+	$("#skin").click(function() {
+		console.log("plus sign clicked");
+		$("#skin-inner").slideToggle();
+	});
+	$("#aging").click(function() {
+		console.log("plus sign clicked");
+		$("#aging-inner").slideToggle();
+	});
+	
+	
+</script>
+
+</html>
