@@ -34,7 +34,7 @@
 				<!-- navbar menu items -->
 				<ul class="navbar-nav">
 
-					<li class="nav-item active">
+					<li class="nav-item">
 						<a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
 					</li>
 
@@ -43,7 +43,7 @@
 					</li>
 
 
-					<li class="nav-item dropdown">
+					<li class="nav-item dropdown active">
 						<a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CURATED ROUTINES
 							<i class="fas fa-caret-down main-caret"/></i>
 						</a>
@@ -88,14 +88,14 @@
 			</div>
 			<div class="col col-12 col-md-5">
 				<div class="product">
-					<img src="products/kiehls.jpg" alt="Image of Kiehl’s Ultra Facial Cleanser.">
+					<img src="products/beste.jpg" alt="Image of Beste No. 9 Jelly Cleanser.">
 					<div class="overlay">
 						<div class="name">
 							Click here for more information about this product.
 						</div>
 					</div>
 				</div>
-				<p class="caption">Kiehl’s Ultra Facial Cleanser</p>
+				<p class="caption">Beste No. 9 Jelly Cleanser</p>
 
 			</div>
 		</div>
@@ -217,7 +217,7 @@
         && $('.dropdown').has(e.target).length === 0 
         && $('.open').has(e.target).length === 0
     ) {
-        $('li.dropdown.mega-dropdown').removeClass('open');
+        $('.dropdown').removeClass('open');
     }
 });
 		console.log("hey");
@@ -234,7 +234,11 @@
 		console.log("plus sign clicked");
 		$("#aging-inner").slideToggle();
 	});
-	
+	// click image to redirect to detailed product info page
+	$(".product").click(function() {
+		console.log("image clicked");
+		document.location.href = "product-info.html";
+	});
 	
 </script>
 

@@ -53,6 +53,7 @@ body {
 }
 #featured img {
 	width: 80%;
+	padding-bottom: 10px;
 }
 #featured .name {
 	position: absolute;
@@ -91,10 +92,6 @@ body {
 	display: block;
 	box-sizing: border-box;
 }
-#members #oprah {
-	width: 91%;
-}
-
 #outer-dropdown {
 	display: none;
 }
