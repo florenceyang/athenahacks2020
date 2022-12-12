@@ -5,6 +5,6 @@
   "repository": "git@github.com:florenceyang/athenahacks2020.git",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
